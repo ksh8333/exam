@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document설문조사양식</title>
+    <link href="chatcss.css" rel="stylesheet">
+    <title>채팅방만들기</title>
 </head>
 <body>
-    <h1>설문조사 양식</h1>
-    <p>모든 항목에 빠짐없이 체크</p>
-    <hr>
+    <div class="container">
+        <section class="chat_screen_bar">
+            <div class="user">
+                <div class="user_info">
+                    <div class="user_pic">
+                        <img src="IMG_4669.jpg" alt="카리나">
+                    </div>
+                </div>
+                <div class="user_info">
+                    <p class="user_nick">"나"</p>
+                    <p class="user_count">3</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="chat_bar">
+        <textarea class="chat_msg"></textarea>
+        <input type="submit" value="전송" class="chat_btn">
+    </section>
 </body>
 </html>
